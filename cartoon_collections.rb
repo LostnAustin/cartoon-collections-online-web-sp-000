@@ -31,9 +31,9 @@ end
     array.each do|ingredient|
   if cheese_types.include?(ingredient)
     return ingredient
-
       end
     end
+        return nil
   end
 
 
