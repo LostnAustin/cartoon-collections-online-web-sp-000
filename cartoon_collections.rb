@@ -34,7 +34,6 @@ def find_the_cheese(array)
 
 return ingredient
 end
-
 end
 
 
