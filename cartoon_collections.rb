@@ -26,15 +26,15 @@ end
   end
 
 
-def find_the_cheese(array)
-    cheese_types = ["cheddar", "gouda", "camembert"]
-  array.collect do |ingredient|
-  return nil unless ingredient.include?(
-  cheese_types)
+  def find_the_cheese(array)
+      cheese_types = ["cheddar", "gouda", "camembert"]
+    array.collect do |ingredient|
+    return nil unless array.include?(
+    cheese_types)
 
+    end
+    return ingredient
   end
-  return ingredient
-end
 
 
 #  array.collect {|ingredients|
