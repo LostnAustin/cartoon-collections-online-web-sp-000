@@ -28,7 +28,7 @@ end
 
 def find_the_cheese(array)
 
-  return nil unless array.include?(
+  return nil unless array.any?(
   cheese_types = ["cheddar", "gouda", "camembert"])
 
 end
