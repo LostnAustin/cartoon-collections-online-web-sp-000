@@ -33,9 +33,8 @@ end
     cheese_types)
     return ingredient
   else return nil
-
+      end
     end
-  end
   end
 
 
