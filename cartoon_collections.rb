@@ -32,7 +32,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"])
 
 end
-}
+} ingredient
 end
 #  array.collect {|ingredients|
 #  return false unless ingredients.include? == cheese_types
