@@ -27,9 +27,10 @@ end
 
 
 def find_the_cheese(array)
+    cheese_types = ["cheddar", "gouda", "camembert"]
   array.collect do |ingredient|
-  return nil unless array.any?(
-  cheese_types = ["cheddar", "gouda", "camembert"])
+  return nil unless array.include?(
+  cheese_types == ingredients)
 
 ingredient
 end
