@@ -32,7 +32,7 @@ def find_the_cheese(array)
   return nil unless array.include?(
   cheese_types == ingredient)
 
-ingredient
+return ingredient
 end
 
 end
